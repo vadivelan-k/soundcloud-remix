@@ -1,0 +1,16 @@
+development:
+  key: b167b12116d7a893aa0101dbaba9e09b
+  secret: ab61d827caa1baa235af480df4aa2ce6
+  base_url: "http://api.soundcloud.com"
+  remember_for: 0 # do not change
+test:
+  key: testkey
+  secret: testsecret
+  base_url: "http://api.soundcloud.com"
+  remember_for: 0 # do not change
+  oauth_callback: "http://localhost:3000/oauth_callback"
+production:
+  key: b167b12116d7a893aa0101dbaba9e09b
+  secret: ab61d827caa1baa235af480df4aa2ce6
+  base_url: "http://api.soundcloud.com"
+  remember_for: 0 # do not change

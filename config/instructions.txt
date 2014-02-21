@@ -1,0 +1,12 @@
+<!-- Erase me and insert your own Remix instructions, including stems, deadlines, etc. -->
+
+<center><h1><img src="images/top.jpg" width="200px" /></h1></center>
+
+<p>
+
+Rapsody, Collegium i Modena organizuje konkurs za DJ-a!!! <br>
+ Pozivamo  sve  mlade i talentovane DJ-eve da sa nama podele svoj rad, da pokazu svima kakvu muziku stvaraju i da dokazu da i oni mogu biti velike DJ zvezde! <br>Postanite nas fan, lajkujte aplikaciju i postavite svoj najbolji mix. Share-ujte svoj mix i prikupite sto veci broj lajkova. Na kraju konkursa samo prvih 10 DJ-eva sa najvecim brojem lajkova ulazi u veliko finale!!! <br>
+<br>
+<a href="http://facemaskbliss.com/rapsody/index.html"> Kako ucestovovati u konkursu ? </a>
+
+</p>

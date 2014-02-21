@@ -1,0 +1,65 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.5)
+      actionpack (= 2.3.5)
+    actionpack (2.3.5)
+      activesupport (= 2.3.5)
+      rack (~> 1.0.0)
+    activerecord (2.3.5)
+      activesupport (= 2.3.5)
+    activeresource (2.3.5)
+      activesupport (= 2.3.5)
+    activesupport (2.3.5)
+    httparty (0.13.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    jwagener-multipart-post (1.0.3)
+    multi_xml (0.5.5)
+    multipart (0.2.1)
+    oauth (0.4.7)
+    oauth-active-resource (0.4.7)
+      activeresource (< 3.0.0)
+      jwagener-multipart-post
+      oauth (>= 0.3.6)
+    pg (0.17.1)
+    pg (0.17.1-x86-mingw32)
+    rack (1.0.1)
+    rails (2.3.5)
+      actionmailer (= 2.3.5)
+      actionpack (= 2.3.5)
+      activerecord (= 2.3.5)
+      activeresource (= 2.3.5)
+      activesupport (= 2.3.5)
+      rake (>= 0.8.3)
+    rails-settings (1.0.0)
+    rake (0.8.7)
+    soundcloud-auth (0.2.0)
+      oauth (>= 0.3.1)
+      soundcloud-ruby-api-wrapper
+    soundcloud-ruby-api-wrapper (0.4.8)
+      oauth (>= 0.3.6)
+      oauth-active-resource (>= 0.4.4)
+    sqlite3 (1.3.8)
+    sqlite3 (1.3.8-x86-mingw32)
+    sqlite3-ruby (1.3.3)
+      sqlite3 (>= 1.3.3)
+    will_paginate (2.3.16)
+
+PLATFORMS
+  ruby
+  x86-mingw32
+
+DEPENDENCIES
+  httparty
+  json
+  multipart
+  oauth
+  pg
+  rails (= 2.3.5)
+  rails-settings
+  rake (= 0.8.7)
+  soundcloud-auth
+  sqlite3-ruby
+  will_paginate (~> 2.3.16)
