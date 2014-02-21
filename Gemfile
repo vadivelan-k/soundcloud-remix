@@ -1,4 +1,5 @@
 source :gemcutter
+ruby "1.9.3"
 gem 'rails', '2.3.5'
 gem 'rake','0.8.7'
 gem 'pg', :group => :production
