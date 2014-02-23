@@ -2,6 +2,8 @@ class RemixesController < ApplicationController
 
   before_filter :check_iphone, :only => [:show, :index]
   before_filter :login_required, :only => [:new]
+  
+  skip_before_filter :verify_authenticity_token, :only => [:create]
 
   def index
     @remixes = Remix.paginate :page => params[:page], :order => params[:sort] || "created_at DESC"
@@ -29,7 +31,7 @@ class RemixesController < ApplicationController
 
   def create
     
-    @remix = Remix.new(:user_id => current_user[:id])
+    @remix = Remix.new(:user_id => current_user[:id], :title => params[:Filename])
     @remix.attributes = params[:remix]
     
     if @remix.save
@@ -64,7 +66,6 @@ class RemixesController < ApplicationController
       end
       
     else
-      
       render :action => "new"
       
     end
