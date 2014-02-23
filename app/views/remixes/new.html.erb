@@ -58,6 +58,9 @@
 		onComplete  : function(a, b, c, response, data){ 
 			$(".uploadifyHeader").text('Saving...');
 			eval(response);
+		},
+		onSelect: function(file) {
+				$("#remix_submit").attr("disabled", false);
 		}
 	});
 
